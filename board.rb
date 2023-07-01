@@ -31,7 +31,7 @@ class Board
 
     def game_over?
         WIN_COMBOS.any? do |combo|
-            [cells[combo[0]], cells[combo[1]], cells[combo[2]]].uniq.lenght == 1
+            [cells[combo[0]], cells[combo[1]], cells[combo[2]]].uniq.length == 1
         end
     end
 end
